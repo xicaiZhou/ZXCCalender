@@ -9,21 +9,22 @@
 /* Begin PBXBuildFile section */
 		221AEE321EF259AA000A8A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE311EF259AA000A8A80 /* main.m */; };
 		221AEE351EF259AA000A8A80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE341EF259AA000A8A80 /* AppDelegate.m */; };
-		221AEE381EF259AA000A8A80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE371EF259AA000A8A80 /* ViewController.m */; };
 		221AEE3B1EF259AA000A8A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE391EF259AA000A8A80 /* Main.storyboard */; };
 		221AEE3D1EF259AA000A8A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE3C1EF259AA000A8A80 /* Assets.xcassets */; };
 		221AEE401EF259AA000A8A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE3E1EF259AA000A8A80 /* LaunchScreen.storyboard */; };
 		221AEE4B1EF259AA000A8A80 /* ZhXCCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE4A1EF259AA000A8A80 /* ZhXCCalenderTests.m */; };
 		221AEE561EF259AA000A8A80 /* ZhXCCalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE551EF259AA000A8A80 /* ZhXCCalenderUITests.m */; };
-		221AEE651EF259DD000A8A80 /* ZXCCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE641EF259DD000A8A80 /* ZXCCalenderView.m */; };
-		221AEE671EF25A32000A8A80 /* ZXCSelectDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE661EF25A32000A8A80 /* ZXCSelectDateView.xib */; };
-		221AEE6A1EF25A6B000A8A80 /* ZXCSelectDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE691EF25A6B000A8A80 /* ZXCSelectDateView.m */; };
-		221AEE6E1EF27204000A8A80 /* NSDate+ZXCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE6D1EF27204000A8A80 /* NSDate+ZXCDate.m */; };
-		221AEE751EF294F0000A8A80 /* ZXCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE741EF294F0000A8A80 /* ZXCMainView.m */; };
-		221AEE791EF37398000A8A80 /* ZXCWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE781EF37398000A8A80 /* ZXCWeekView.m */; };
-		221AEE7C1EF37C20000A8A80 /* NSString+ZXCStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE7B1EF37C20000A8A80 /* NSString+ZXCStr.m */; };
-		221AEE7F1EF3812A000A8A80 /* ZXCBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE7E1EF3812A000A8A80 /* ZXCBtnItem.m */; };
-		221AEE831EF38169000A8A80 /* ZXCBtnItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE821EF38169000A8A80 /* ZXCBtnItem.xib */; };
+		22C38B2C1EF7998100F3DC25 /* NSDate+ZXCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B161EF7998100F3DC25 /* NSDate+ZXCDate.m */; };
+		22C38B2D1EF7998100F3DC25 /* NSString+ZXCStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B181EF7998100F3DC25 /* NSString+ZXCStr.m */; };
+		22C38B2E1EF7998100F3DC25 /* UIColor+ZXCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B1A1EF7998100F3DC25 /* UIColor+ZXCColor.m */; };
+		22C38B2F1EF7998100F3DC25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B1F1EF7998100F3DC25 /* ViewController.m */; };
+		22C38B301EF7998100F3DC25 /* ZXCBtnItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B211EF7998100F3DC25 /* ZXCBtnItem.m */; };
+		22C38B311EF7998100F3DC25 /* ZXCBtnItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C38B221EF7998100F3DC25 /* ZXCBtnItem.xib */; };
+		22C38B321EF7998100F3DC25 /* ZXCCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B241EF7998100F3DC25 /* ZXCCalenderView.m */; };
+		22C38B331EF7998100F3DC25 /* ZXCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B261EF7998100F3DC25 /* ZXCMainView.m */; };
+		22C38B341EF7998100F3DC25 /* ZXCSelectDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B281EF7998100F3DC25 /* ZXCSelectDateView.m */; };
+		22C38B351EF7998100F3DC25 /* ZXCSelectDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C38B291EF7998100F3DC25 /* ZXCSelectDateView.xib */; };
+		22C38B361EF7998100F3DC25 /* ZXCWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B2B1EF7998100F3DC25 /* ZXCWeekView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +49,6 @@
 		221AEE311EF259AA000A8A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		221AEE331EF259AA000A8A80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		221AEE341EF259AA000A8A80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		221AEE361EF259AA000A8A80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		221AEE371EF259AA000A8A80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		221AEE3A1EF259AA000A8A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221AEE3C1EF259AA000A8A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221AEE3F1EF259AA000A8A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,23 +59,27 @@
 		221AEE511EF259AA000A8A80 /* ZhXCCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhXCCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221AEE551EF259AA000A8A80 /* ZhXCCalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhXCCalenderUITests.m; sourceTree = "<group>"; };
 		221AEE571EF259AA000A8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		221AEE631EF259DD000A8A80 /* ZXCCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCCalenderView.h; sourceTree = "<group>"; };
-		221AEE641EF259DD000A8A80 /* ZXCCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCCalenderView.m; sourceTree = "<group>"; };
-		221AEE661EF25A32000A8A80 /* ZXCSelectDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCSelectDateView.xib; sourceTree = "<group>"; };
-		221AEE681EF25A6B000A8A80 /* ZXCSelectDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCSelectDateView.h; sourceTree = "<group>"; };
-		221AEE691EF25A6B000A8A80 /* ZXCSelectDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCSelectDateView.m; sourceTree = "<group>"; };
-		221AEE6C1EF27204000A8A80 /* NSDate+ZXCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZXCDate.h"; sourceTree = "<group>"; };
-		221AEE6D1EF27204000A8A80 /* NSDate+ZXCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZXCDate.m"; sourceTree = "<group>"; };
-		221AEE731EF294F0000A8A80 /* ZXCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCMainView.h; sourceTree = "<group>"; };
-		221AEE741EF294F0000A8A80 /* ZXCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCMainView.m; sourceTree = "<group>"; };
-		221AEE761EF372FD000A8A80 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		221AEE771EF37398000A8A80 /* ZXCWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCWeekView.h; sourceTree = "<group>"; };
-		221AEE781EF37398000A8A80 /* ZXCWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCWeekView.m; sourceTree = "<group>"; };
-		221AEE7A1EF37C20000A8A80 /* NSString+ZXCStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXCStr.h"; sourceTree = "<group>"; };
-		221AEE7B1EF37C20000A8A80 /* NSString+ZXCStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXCStr.m"; sourceTree = "<group>"; };
-		221AEE7D1EF3812A000A8A80 /* ZXCBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCBtnItem.h; sourceTree = "<group>"; };
-		221AEE7E1EF3812A000A8A80 /* ZXCBtnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCBtnItem.m; sourceTree = "<group>"; };
-		221AEE821EF38169000A8A80 /* ZXCBtnItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCBtnItem.xib; sourceTree = "<group>"; };
+		22C38B151EF7998100F3DC25 /* NSDate+ZXCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZXCDate.h"; sourceTree = "<group>"; };
+		22C38B161EF7998100F3DC25 /* NSDate+ZXCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZXCDate.m"; sourceTree = "<group>"; };
+		22C38B171EF7998100F3DC25 /* NSString+ZXCStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXCStr.h"; sourceTree = "<group>"; };
+		22C38B181EF7998100F3DC25 /* NSString+ZXCStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXCStr.m"; sourceTree = "<group>"; };
+		22C38B191EF7998100F3DC25 /* UIColor+ZXCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZXCColor.h"; sourceTree = "<group>"; };
+		22C38B1A1EF7998100F3DC25 /* UIColor+ZXCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXCColor.m"; sourceTree = "<group>"; };
+		22C38B1C1EF7998100F3DC25 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22C38B1E1EF7998100F3DC25 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22C38B1F1EF7998100F3DC25 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22C38B201EF7998100F3DC25 /* ZXCBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCBtnItem.h; sourceTree = "<group>"; };
+		22C38B211EF7998100F3DC25 /* ZXCBtnItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCBtnItem.m; sourceTree = "<group>"; };
+		22C38B221EF7998100F3DC25 /* ZXCBtnItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCBtnItem.xib; sourceTree = "<group>"; };
+		22C38B231EF7998100F3DC25 /* ZXCCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCCalenderView.h; sourceTree = "<group>"; };
+		22C38B241EF7998100F3DC25 /* ZXCCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCCalenderView.m; sourceTree = "<group>"; };
+		22C38B251EF7998100F3DC25 /* ZXCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCMainView.h; sourceTree = "<group>"; };
+		22C38B261EF7998100F3DC25 /* ZXCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCMainView.m; sourceTree = "<group>"; };
+		22C38B271EF7998100F3DC25 /* ZXCSelectDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCSelectDateView.h; sourceTree = "<group>"; };
+		22C38B281EF7998100F3DC25 /* ZXCSelectDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCSelectDateView.m; sourceTree = "<group>"; };
+		22C38B291EF7998100F3DC25 /* ZXCSelectDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCSelectDateView.xib; sourceTree = "<group>"; };
+		22C38B2A1EF7998100F3DC25 /* ZXCWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCWeekView.h; sourceTree = "<group>"; };
+		22C38B2B1EF7998100F3DC25 /* ZXCWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCWeekView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,27 +130,11 @@
 		221AEE2F1EF259AA000A8A80 /* ZhXCCalender */ = {
 			isa = PBXGroup;
 			children = (
-				221AEE761EF372FD000A8A80 /* PrefixHeader.pch */,
+				22C38B141EF7998100F3DC25 /* Category */,
+				22C38B1B1EF7998100F3DC25 /* Config */,
+				22C38B1D1EF7998100F3DC25 /* UI */,
 				221AEE331EF259AA000A8A80 /* AppDelegate.h */,
 				221AEE341EF259AA000A8A80 /* AppDelegate.m */,
-				221AEE361EF259AA000A8A80 /* ViewController.h */,
-				221AEE371EF259AA000A8A80 /* ViewController.m */,
-				221AEE631EF259DD000A8A80 /* ZXCCalenderView.h */,
-				221AEE641EF259DD000A8A80 /* ZXCCalenderView.m */,
-				221AEE681EF25A6B000A8A80 /* ZXCSelectDateView.h */,
-				221AEE691EF25A6B000A8A80 /* ZXCSelectDateView.m */,
-				221AEE661EF25A32000A8A80 /* ZXCSelectDateView.xib */,
-				221AEE731EF294F0000A8A80 /* ZXCMainView.h */,
-				221AEE741EF294F0000A8A80 /* ZXCMainView.m */,
-				221AEE771EF37398000A8A80 /* ZXCWeekView.h */,
-				221AEE781EF37398000A8A80 /* ZXCWeekView.m */,
-				221AEE6C1EF27204000A8A80 /* NSDate+ZXCDate.h */,
-				221AEE6D1EF27204000A8A80 /* NSDate+ZXCDate.m */,
-				221AEE7A1EF37C20000A8A80 /* NSString+ZXCStr.h */,
-				221AEE7B1EF37C20000A8A80 /* NSString+ZXCStr.m */,
-				221AEE7D1EF3812A000A8A80 /* ZXCBtnItem.h */,
-				221AEE7E1EF3812A000A8A80 /* ZXCBtnItem.m */,
-				221AEE821EF38169000A8A80 /* ZXCBtnItem.xib */,
 				221AEE391EF259AA000A8A80 /* Main.storyboard */,
 				221AEE3C1EF259AA000A8A80 /* Assets.xcassets */,
 				221AEE3E1EF259AA000A8A80 /* LaunchScreen.storyboard */,
@@ -181,6 +168,48 @@
 				221AEE571EF259AA000A8A80 /* Info.plist */,
 			);
 			path = ZhXCCalenderUITests;
+			sourceTree = "<group>";
+		};
+		22C38B141EF7998100F3DC25 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				22C38B151EF7998100F3DC25 /* NSDate+ZXCDate.h */,
+				22C38B161EF7998100F3DC25 /* NSDate+ZXCDate.m */,
+				22C38B171EF7998100F3DC25 /* NSString+ZXCStr.h */,
+				22C38B181EF7998100F3DC25 /* NSString+ZXCStr.m */,
+				22C38B191EF7998100F3DC25 /* UIColor+ZXCColor.h */,
+				22C38B1A1EF7998100F3DC25 /* UIColor+ZXCColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		22C38B1B1EF7998100F3DC25 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				22C38B1C1EF7998100F3DC25 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		22C38B1D1EF7998100F3DC25 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				22C38B1E1EF7998100F3DC25 /* ViewController.h */,
+				22C38B1F1EF7998100F3DC25 /* ViewController.m */,
+				22C38B201EF7998100F3DC25 /* ZXCBtnItem.h */,
+				22C38B211EF7998100F3DC25 /* ZXCBtnItem.m */,
+				22C38B221EF7998100F3DC25 /* ZXCBtnItem.xib */,
+				22C38B231EF7998100F3DC25 /* ZXCCalenderView.h */,
+				22C38B241EF7998100F3DC25 /* ZXCCalenderView.m */,
+				22C38B251EF7998100F3DC25 /* ZXCMainView.h */,
+				22C38B261EF7998100F3DC25 /* ZXCMainView.m */,
+				22C38B271EF7998100F3DC25 /* ZXCSelectDateView.h */,
+				22C38B281EF7998100F3DC25 /* ZXCSelectDateView.m */,
+				22C38B291EF7998100F3DC25 /* ZXCSelectDateView.xib */,
+				22C38B2A1EF7998100F3DC25 /* ZXCWeekView.h */,
+				22C38B2B1EF7998100F3DC25 /* ZXCWeekView.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,11 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AEE671EF25A32000A8A80 /* ZXCSelectDateView.xib in Resources */,
 				221AEE401EF259AA000A8A80 /* LaunchScreen.storyboard in Resources */,
-				221AEE831EF38169000A8A80 /* ZXCBtnItem.xib in Resources */,
 				221AEE3D1EF259AA000A8A80 /* Assets.xcassets in Resources */,
 				221AEE3B1EF259AA000A8A80 /* Main.storyboard in Resources */,
+				22C38B311EF7998100F3DC25 /* ZXCBtnItem.xib in Resources */,
+				22C38B351EF7998100F3DC25 /* ZXCSelectDateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,15 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AEE6A1EF25A6B000A8A80 /* ZXCSelectDateView.m in Sources */,
-				221AEE381EF259AA000A8A80 /* ViewController.m in Sources */,
-				221AEE751EF294F0000A8A80 /* ZXCMainView.m in Sources */,
-				221AEE7C1EF37C20000A8A80 /* NSString+ZXCStr.m in Sources */,
+				22C38B341EF7998100F3DC25 /* ZXCSelectDateView.m in Sources */,
+				22C38B361EF7998100F3DC25 /* ZXCWeekView.m in Sources */,
+				22C38B2F1EF7998100F3DC25 /* ViewController.m in Sources */,
 				221AEE351EF259AA000A8A80 /* AppDelegate.m in Sources */,
-				221AEE791EF37398000A8A80 /* ZXCWeekView.m in Sources */,
-				221AEE651EF259DD000A8A80 /* ZXCCalenderView.m in Sources */,
-				221AEE7F1EF3812A000A8A80 /* ZXCBtnItem.m in Sources */,
-				221AEE6E1EF27204000A8A80 /* NSDate+ZXCDate.m in Sources */,
+				22C38B321EF7998100F3DC25 /* ZXCCalenderView.m in Sources */,
+				22C38B2E1EF7998100F3DC25 /* UIColor+ZXCColor.m in Sources */,
+				22C38B331EF7998100F3DC25 /* ZXCMainView.m in Sources */,
+				22C38B2D1EF7998100F3DC25 /* NSString+ZXCStr.m in Sources */,
+				22C38B301EF7998100F3DC25 /* ZXCBtnItem.m in Sources */,
+				22C38B2C1EF7998100F3DC25 /* NSDate+ZXCDate.m in Sources */,
 				221AEE321EF259AA000A8A80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ZhXCCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.ZhXCCalender;
@@ -492,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = ZhXCCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.ZhXCCalender;

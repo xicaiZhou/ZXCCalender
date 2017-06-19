@@ -14,6 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
         [self createWeekViewWithFrame:frame];
     }
     return self;

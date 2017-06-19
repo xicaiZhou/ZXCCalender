@@ -79,6 +79,12 @@
     return date;
 }
 
+/**
+ 根据day得到day在这个月的具体日期
+
+ @param date date
+ @param day day
+ */
 + (NSDate *)dateOfMonth:(NSDate *)date WithDay:(NSInteger)day{
     NSCalendar *calendar = [NSCalendar currentCalendar];
     

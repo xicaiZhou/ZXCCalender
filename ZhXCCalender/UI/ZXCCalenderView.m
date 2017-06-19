@@ -37,7 +37,7 @@
 
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"ZXCSelectDateView" owner:nil options:nil];
     _selectDateView = views.firstObject;
-    _selectDateView.frame = CGRectMake(0, 0, Screen_Width, 46);
+    _selectDateView.frame = CGRectMake(0, 0, Screen_Width, selectViewHeight);
     [_selectDateView.LastMonthBtn addTarget:self action:@selector(lastmonth) forControlEvents:UIControlEventTouchUpInside];
     [_selectDateView.nextMonthBtn addTarget:self action:@selector(nextMonth) forControlEvents:UIControlEventTouchUpInside];
     _selectDateView.topLabel.text = [NSString stringWithDate:[NSDate date]];
@@ -47,7 +47,7 @@
 
 - (void)createWeekView{
     
-    ZXCWeekView *weekView = [[ZXCWeekView alloc] initWithFrame:CGRectMake(0, 46, Screen_Width, itemH)];
+    ZXCWeekView *weekView = [[ZXCWeekView alloc] initWithFrame:CGRectMake(0, selectViewHeight, Screen_Width, itemH)];
     [self addSubview:weekView];
 }
 

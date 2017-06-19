@@ -13,6 +13,7 @@ typedef NS_ENUM(NSUInteger, ZXCStrWithChineseCalendarType) {
     ZXCStrWithChineseCalendarTypeY = 2,
     ZXCStrWithChineseCalendarTypeM = 3,
     ZXCStrWithChineseCalendarTypeD = 4,
+    ZXCStrWithChineseCalendarTypeSolarTermsAndFestival = 5,
 };
 @interface NSString (ZXCStr)
  //将日期转化成str
