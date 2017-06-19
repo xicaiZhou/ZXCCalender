@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ZXCCalenderDelegate <NSObject>
+- (void)ZXCCalenderDelegateClickBtnReturn:(NSString *)str;
+@end
 @interface ZXCCalenderView : UIView
 - (instancetype)initWithFrame:(CGRect)frame;
+@property (nonatomic, weak) id<ZXCCalenderDelegate> delegate;
 @end

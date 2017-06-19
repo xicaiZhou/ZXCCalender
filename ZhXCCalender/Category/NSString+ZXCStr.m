@@ -179,6 +179,18 @@ static int32_t gLunarHolDay[] =
     NSString *dateTime = [formatter stringFromDate:date];
     return dateTime;
 }
++ (NSString *)stringWithDate:(NSDate *)date withFormat:(NSString *)Format{
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    
+    [formatter setTimeStyle:NSDateFormatterShortStyle];
+    
+    [formatter setDateFormat:Format];
+    NSString *dateTime = [formatter stringFromDate:date];
+    return dateTime;
+}
 + (NSString *)stringChineseCalendarWithDate:(NSDate *)date withType:(ZXCStrWithChineseCalendarType)type{
     
     NSCalendar *localeCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSChineseCalendar];

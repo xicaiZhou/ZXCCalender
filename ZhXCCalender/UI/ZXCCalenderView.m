@@ -10,7 +10,7 @@
 #import "ZXCSelectDateView.h"
 #import "ZXCMainView.h"
 #import "ZXCWeekView.h"
-@interface ZXCCalenderView()
+@interface ZXCCalenderView()<ZXCMainViewDelegate>
 
 @property (nonatomic, strong) UIView *weekBg;
 @property (nonatomic, strong) ZXCSelectDateView *selectDateView;
@@ -40,7 +40,7 @@
     _selectDateView.frame = CGRectMake(0, 0, Screen_Width, selectViewHeight);
     [_selectDateView.LastMonthBtn addTarget:self action:@selector(lastmonth) forControlEvents:UIControlEventTouchUpInside];
     [_selectDateView.nextMonthBtn addTarget:self action:@selector(nextMonth) forControlEvents:UIControlEventTouchUpInside];
-    _selectDateView.topLabel.text = [NSString stringWithDate:[NSDate date]];
+    _selectDateView.topLabel.text = [NSString stringWithDate:[NSDate date] withFormat:@"YYYY-MM"];
     _selectDateView.bottmlabel.text = [NSString stringChineseCalendarWithDate:[NSDate date] withType:ZXCStrWithChineseCalendarTypeYM];
     [self addSubview:_selectDateView];
 }
@@ -54,6 +54,7 @@
 - (void)createContentViewWithFirstWeekday{
 
     [self addSubview:[ZXCMainView shardZxcMainView]];
+    [ZXCMainView shardZxcMainView].delegate = self;
 }
 #pragma mark -- action
 - (void)lastmonth{
@@ -61,7 +62,7 @@
     _current -= 1;
     NSDate *lastDate = [NSDate lastMonth:[NSDate date] withNum:self.current];
     [[ZXCMainView shardZxcMainView] nextMonthDate:lastDate];
-    _selectDateView.topLabel.text = [NSString stringWithDate:lastDate];
+    _selectDateView.topLabel.text = [NSString stringWithDate:lastDate withFormat:@"YYYY-MM"];
     _selectDateView.bottmlabel.text = [NSString stringChineseCalendarWithDate:lastDate withType:ZXCStrWithChineseCalendarTypeYM];
 }
 - (void)nextMonth{
@@ -69,7 +70,13 @@
     _current += 1;
     NSDate *nextDate = [NSDate lastMonth:[NSDate date] withNum:self.current];
     [[ZXCMainView shardZxcMainView] nextMonthDate:nextDate];
-    _selectDateView.topLabel.text = [NSString stringWithDate:nextDate];
+    _selectDateView.topLabel.text = [NSString stringWithDate:nextDate withFormat:@"YYYY-MM"];
     _selectDateView.bottmlabel.text = [NSString stringChineseCalendarWithDate:nextDate withType:ZXCStrWithChineseCalendarTypeYM];
+}
+- (void)ZXCMainViewDelegateClickBtnReturn:(NSString *)str{
+
+    if ([self.delegate respondsToSelector:@selector(ZXCCalenderDelegateClickBtnReturn:)]) {
+        [self.delegate ZXCCalenderDelegateClickBtnReturn:str];
+    }
 }
 @end

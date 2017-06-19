@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, ZXCStrWithChineseCalendarType) {
 };
 @interface NSString (ZXCStr)
  //将日期转化成str
-+ (NSString *)stringWithDate:(NSDate *)date;
++ (NSString *)stringWithDate:(NSDate *)date withFormat:(NSString *)Format;
 //获取中国农历
 + (NSString *)stringChineseCalendarWithDate:(NSDate *)date withType:(ZXCStrWithChineseCalendarType)type;
 @end

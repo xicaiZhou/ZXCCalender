@@ -23,6 +23,8 @@
 #define itemW 50
 #define selectViewHeight 60
 #define ca (Screen_Width / 7 - itemH) / 2
+#define selectedColor [UIColor cyanColor]
+
 #define ChineseMonths @[@"正月", @"二月", @"三月", @"四月", @"五月", @"六月", @"七月", @"八月",@"九月", @"十月", @"冬月", @"腊月"]
 
 #define ChineseFestival @[@"除夕",@"春节",@"中秋",@"五一",@"国庆节",@"儿童节",@"圣诞节",@"七夕",@"端午节"]
