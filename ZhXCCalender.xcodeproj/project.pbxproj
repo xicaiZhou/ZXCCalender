@@ -80,6 +80,7 @@
 		22C38B291EF7998100F3DC25 /* ZXCSelectDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCSelectDateView.xib; sourceTree = "<group>"; };
 		22C38B2A1EF7998100F3DC25 /* ZXCWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCWeekView.h; sourceTree = "<group>"; };
 		22C38B2B1EF7998100F3DC25 /* ZXCWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCWeekView.m; sourceTree = "<group>"; };
+		22C38B371EF7B04300F3DC25 /* ZXCCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCCalender.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +209,7 @@
 				22C38B291EF7998100F3DC25 /* ZXCSelectDateView.xib */,
 				22C38B2A1EF7998100F3DC25 /* ZXCWeekView.h */,
 				22C38B2B1EF7998100F3DC25 /* ZXCWeekView.m */,
+				22C38B371EF7B04300F3DC25 /* ZXCCalender.h */,
 			);
 			path = UI;
 			sourceTree = "<group>";
