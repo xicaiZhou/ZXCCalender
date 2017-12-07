@@ -108,7 +108,6 @@
         }
         if (_oldSelectedDate) {
             if (([NSDate month:date] == [NSDate month:_oldSelectedDate]) && ([NSDate year:date] == [NSDate year:_oldSelectedDate]) &&((i == firstWeekday + [NSDate day:_oldSelectedDate] - 1))) {
-                NSLog(@"%ld",[NSDate day:_oldSelectedDate]);
                 [button setBackgroundColor:selectedColor];
                 
             }else{
