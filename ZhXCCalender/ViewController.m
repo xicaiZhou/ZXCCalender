@@ -8,9 +8,7 @@
 
 #import "ViewController.h"
 #import "ZXCCalenderView.h"
-#import "UIColor+ZXCColor.h"
-#import "NSDate+ZXCDate.h"
-#import "NSString+ZXCStr.h"
+#import "ZXCCalender.h"
 @interface ViewController ()<ZXCCalenderDelegate>
 @property (nonatomic, strong) UILabel *label;
 @end
