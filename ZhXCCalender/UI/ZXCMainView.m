@@ -5,22 +5,11 @@
 //  Created by 周希财 on 2017/6/15.
 //  Copyright © 2017年 iOS_ZXC. All rights reserved.
 //
-#define Screen_Bounds [[UIScreen mainScreen] bounds]
 
-#define Screen_Width CGRectGetWidth(Screen_Bounds)
-
-#define Screen_Height CGRectGetHeight(Screen_Bounds)
-
-#define itemH 50
-#define itemW 50
-#define selectViewHeight 60
-#define ca (Screen_Width / 7 - itemH) / 2
-#define selectedColor [UIColor cyanColor]
 #import "ZXCMainView.h"
 #import "ZXCBtnItem.h"
-#import "NSDate+ZXCDate.h"
-#import "NSString+ZXCStr.h"
-#define mainColor [UIColor grayColor]
+
+#import "ZXCCalender.h"
 @interface  ZXCMainView()
 @property (nonatomic, strong) NSMutableArray *dateArray;
 @property (nonatomic, assign) NSDate* currentSelectedDate;

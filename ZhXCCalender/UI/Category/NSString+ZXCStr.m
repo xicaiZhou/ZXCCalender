@@ -201,8 +201,8 @@ static int32_t gLunarHolDay[] =
 }
 + (NSString *)stringChineseCalendarWithDate:(NSDate *)date withType:(ZXCStrWithChineseCalendarType)type{
     
-    NSCalendar *localeCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSChineseCalendar];
-    unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit;
+    NSCalendar *localeCalendar = [[NSCalendar alloc] initWithCalendarIdentifier: NSCalendarIdentifierChinese];
+    unsigned unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
     
     NSDateComponents *localeComp = [localeCalendar components:unitFlags fromDate:date];
     
@@ -288,8 +288,8 @@ static int32_t gLunarHolDay[] =
     //除夕另外提出放在所有节日的末尾执行，除夕是在春节前一天，即把components当天时间前移一天，放在所有节日末尾，避免其他节日全部前移一天
     NSTimeInterval timeIntervalchineseDay =60 * 60 *24;
     NSDate *nextDay_date = [NSDate dateWithTimeInterval:timeIntervalchineseDay sinceDate:date];
-    NSCalendar *localeCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSChineseCalendar];
-    unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit |NSDayCalendarUnit;
+    NSCalendar *localeCalendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+    unsigned unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
     components = [localeCalendar components:unitFlags fromDate:nextDay_date];
     if ( 1 == components.month &&1 == components.day ) {
         return @"除夕";
