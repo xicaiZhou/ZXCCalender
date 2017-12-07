@@ -14,6 +14,8 @@
 		221AEE401EF259AA000A8A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221AEE3E1EF259AA000A8A80 /* LaunchScreen.storyboard */; };
 		221AEE4B1EF259AA000A8A80 /* ZhXCCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE4A1EF259AA000A8A80 /* ZhXCCalenderTests.m */; };
 		221AEE561EF259AA000A8A80 /* ZhXCCalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221AEE551EF259AA000A8A80 /* ZhXCCalenderUITests.m */; };
+		2264DA891FD913960057E9FF /* last.png in Resources */ = {isa = PBXBuildFile; fileRef = 2264DA881FD913960057E9FF /* last.png */; };
+		2264DA8B1FD913A40057E9FF /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 2264DA8A1FD913A40057E9FF /* next.png */; };
 		22C38B2C1EF7998100F3DC25 /* NSDate+ZXCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B161EF7998100F3DC25 /* NSDate+ZXCDate.m */; };
 		22C38B2D1EF7998100F3DC25 /* NSString+ZXCStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B181EF7998100F3DC25 /* NSString+ZXCStr.m */; };
 		22C38B2E1EF7998100F3DC25 /* UIColor+ZXCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C38B1A1EF7998100F3DC25 /* UIColor+ZXCColor.m */; };
@@ -59,13 +61,14 @@
 		221AEE511EF259AA000A8A80 /* ZhXCCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhXCCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221AEE551EF259AA000A8A80 /* ZhXCCalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhXCCalenderUITests.m; sourceTree = "<group>"; };
 		221AEE571EF259AA000A8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2264DA881FD913960057E9FF /* last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = last.png; path = ZhXCCalender/UI/last.png; sourceTree = SOURCE_ROOT; };
+		2264DA8A1FD913A40057E9FF /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = ZhXCCalender/UI/next.png; sourceTree = SOURCE_ROOT; };
 		22C38B151EF7998100F3DC25 /* NSDate+ZXCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZXCDate.h"; sourceTree = "<group>"; };
 		22C38B161EF7998100F3DC25 /* NSDate+ZXCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZXCDate.m"; sourceTree = "<group>"; };
 		22C38B171EF7998100F3DC25 /* NSString+ZXCStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXCStr.h"; sourceTree = "<group>"; };
 		22C38B181EF7998100F3DC25 /* NSString+ZXCStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXCStr.m"; sourceTree = "<group>"; };
 		22C38B191EF7998100F3DC25 /* UIColor+ZXCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZXCColor.h"; sourceTree = "<group>"; };
 		22C38B1A1EF7998100F3DC25 /* UIColor+ZXCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXCColor.m"; sourceTree = "<group>"; };
-		22C38B1C1EF7998100F3DC25 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		22C38B1E1EF7998100F3DC25 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		22C38B1F1EF7998100F3DC25 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22C38B201EF7998100F3DC25 /* ZXCBtnItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCBtnItem.h; sourceTree = "<group>"; };
@@ -131,11 +134,11 @@
 		221AEE2F1EF259AA000A8A80 /* ZhXCCalender */ = {
 			isa = PBXGroup;
 			children = (
-				22C38B141EF7998100F3DC25 /* Category */,
-				22C38B1B1EF7998100F3DC25 /* Config */,
 				22C38B1D1EF7998100F3DC25 /* UI */,
 				221AEE331EF259AA000A8A80 /* AppDelegate.h */,
 				221AEE341EF259AA000A8A80 /* AppDelegate.m */,
+				22C38B1E1EF7998100F3DC25 /* ViewController.h */,
+				22C38B1F1EF7998100F3DC25 /* ViewController.m */,
 				221AEE391EF259AA000A8A80 /* Main.storyboard */,
 				221AEE3C1EF259AA000A8A80 /* Assets.xcassets */,
 				221AEE3E1EF259AA000A8A80 /* LaunchScreen.storyboard */,
@@ -184,21 +187,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		22C38B1B1EF7998100F3DC25 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				22C38B1C1EF7998100F3DC25 /* PrefixHeader.pch */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
 		22C38B1D1EF7998100F3DC25 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				22C38B1E1EF7998100F3DC25 /* ViewController.h */,
-				22C38B1F1EF7998100F3DC25 /* ViewController.m */,
+				22C38B141EF7998100F3DC25 /* Category */,
 				22C38B201EF7998100F3DC25 /* ZXCBtnItem.h */,
 				22C38B211EF7998100F3DC25 /* ZXCBtnItem.m */,
+				2264DA881FD913960057E9FF /* last.png */,
+				2264DA8A1FD913A40057E9FF /* next.png */,
 				22C38B221EF7998100F3DC25 /* ZXCBtnItem.xib */,
 				22C38B231EF7998100F3DC25 /* ZXCCalenderView.h */,
 				22C38B241EF7998100F3DC25 /* ZXCCalenderView.m */,
@@ -281,6 +277,7 @@
 				TargetAttributes = {
 					221AEE2C1EF259AA000A8A80 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AC74LCWLVF;
 						ProvisioningStyle = Automatic;
 					};
 					221AEE451EF259AA000A8A80 = {
@@ -320,11 +317,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2264DA8B1FD913A40057E9FF /* next.png in Resources */,
 				221AEE401EF259AA000A8A80 /* LaunchScreen.storyboard in Resources */,
 				221AEE3D1EF259AA000A8A80 /* Assets.xcassets in Resources */,
 				221AEE3B1EF259AA000A8A80 /* Main.storyboard in Resources */,
 				22C38B311EF7998100F3DC25 /* ZXCBtnItem.xib in Resources */,
 				22C38B351EF7998100F3DC25 /* ZXCSelectDateView.xib in Resources */,
+				2264DA891FD913960057E9FF /* last.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,9 +509,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/Config/PrefixHeader.pch";
+				DEVELOPMENT_TEAM = AC74LCWLVF;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ZhXCCalender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.ZhXCCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,9 +524,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhXCCalender/Config/PrefixHeader.pch";
+				DEVELOPMENT_TEAM = AC74LCWLVF;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = ZhXCCalender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.ZhXCCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "ZXCCalenderView.h"
+#import "UIColor+ZXCColor.h"
+#import "NSDate+ZXCDate.h"
+#import "NSString+ZXCStr.h"
 @interface ViewController ()<ZXCCalenderDelegate>
 @property (nonatomic, strong) UILabel *label;
 @end
@@ -23,7 +26,7 @@
     
     _label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0,250, 30)];
     _label.center = CGPointMake(self.view.center.x, 550) ;
-    _label.backgroundColor = selectedColor;
+    _label.backgroundColor = [UIColor purpleColor];
     _label.text = [NSString stringWithDate:[NSDate date] withFormat:@"YYYY-MM-dd"];
     _label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_label];
