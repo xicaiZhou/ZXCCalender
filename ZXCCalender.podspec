@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.name          = "ZXCCalender"
   s.version       = @version
   s.summary       = "日历农历法定节假日"
-  s.description   = "快速集成日历"
+  s.description   = "快速集成日历,新手练习，简单日历"
   s.homepage      = "https://github.com/xicaiZhou/ZXCCalender"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.author        = { "ZXC" => "zhouxicaijob@163.com" }
